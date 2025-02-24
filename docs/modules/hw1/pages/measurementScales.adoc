@@ -1,0 +1,84 @@
+= Measurement Scales
+
+In a table like below:
+
+|===
+|Name |Description |Role|Level
+
+|bathrooms
+|Number of bathrooms
+|Input
+|Interval
+
+|bedrooms
+|Number of bedrooms
+|Input
+|Interval
+
+|condition
+|Overall condition of the house
+|Input
+|Interval
+|===
+
+the "Level" column specifies how the data for each attribute is measured. Specifically, the "Level" is noted as "Interval" for all the listed attributes (such as the number of bathrooms, bedrooms, and floors).
+
+Interval level measurement means that the differences between values are meaningful. For example, the difference between 2 bathrooms and 3 bathrooms is significant. However, interval scales do not have a true zero point, so ratios of values are not meaningful.
+
+For instance, you can't say that a house with 2 bathrooms has "twice as many bathrooms" as a house with 1 bathroom, because the interval scale doesn't have a true zero value to define such ratios.
+
+== Different types of measurement scales
+There are four main types of measurement scales used in statistics, each with distinct properties:
+
+*Nominal Scale:*
+
+This is the simplest scale, used for labeling or categorizing without any quantitative value. For example, assigning numbers to football players' jerseys or labeling types of fruit (apple, orange, banana).
+
+*Ordinal Scale:*
+
+This scale involves order or ranking, but the differences between ranks are not necessarily equal. For example, ranking customer satisfaction from 1 to 5, where 1 is "very dissatisfied" and 5 is "very satisfied".
+
+*Interval Scale:*
+
+This scale has equal intervals between values, allowing for the comparison of differences. However, there is no true zero point. For example, temperature in Celsius or Fahrenheit, where the difference between 10°C and 20°C is the same as the difference between 20°C and 30°C.
+
+*Ratio Scale:*
+
+This is the most informative scale, with equal intervals and a true zero point, allowing for meaningful comparisons and calculations of ratios. Examples include weight, height, and age. For instance, a weight of 0 kg means "no weight", and 20 kg is twice as heavy as 10 kg.
+
+Each type of scale provides different levels of information and is used in different contexts. Understanding these differences helps in choosing the right statistical tools and methods.
+
+*Binary Scale:*
+
+A binary scale is the simplest form of measurement, involving only two categories or states. It’s essentially a type of nominal scale with just two possible values, often represented as 0 and 1, yes and no, true and false, or present and absent.
+
+Examples include answers to yes/no questions, the presence or absence of a feature, and binary gender categories.
+
+Here's how it fits into the overall picture:
+
+|===
+|Scale Type |Example |Key properties
+
+|Nominal
+|Types of fruit
+|Categorization without quantitative value
+
+|Binary
+|Yes/No answers
+|Two distinct categories or states
+
+|Ordinal
+|Customer satisfaction rank
+|Ordered categories with unequal intervals
+
+|Interval
+|Temperature (Celsius)
+|Equal intervals, no true zero point
+
+|Ratio
+|Weight
+|Equal intervals, true zero point, meaningful ratios
+
+|===
+
+The binary scale is particularly useful for simplifying data analysis and decision-making processes, as it reduces complexity by limiting options to two straightforward choices.

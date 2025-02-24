@@ -1,0 +1,27 @@
+= Data Summary
+
+|===
+|Name |Description |Role |Level
+
+|bathrooms |Number of bathrooms |Input |Interval
+|bedrooms |Number of bedrooms |Input |Interval
+|condition |Overall condition of the house |Input |Interval
+|floors |Number of floors |Input |Interval
+|grade |Overall grade of the house (based on KingCounty grading system) |Input |Interval
+|id |House ID |ID |Nominal
+|month |Month of Sale |Input |Nominal
+|price |Sale price |Target* |Interval
+|price_gte_500K |Whether sale price is greater than or equal to $500,000 |Rejected |Binary
+|sqft_above |Square footage of the house apart from basement |Input |Interval
+|sqft basement |Square footage of the basement |Input |Interval
+|sqft living |Square footage of the house |Input |Interval
+|sqft living15 |Square footage of the living room in 2015 (implies renovations) |Input |Interval
+|sqft lot |Square footage of the lot |Input |Interval
+|sqft lot15 |Square footage of the lot in 2015 (implies renovations) |Input |Interval
+|view |Number of times the house is viewed |Input |Interval
+|waterfront |Whether the house is waterfront (1=Yes, 0=No) |Input |Binary
+|year |Year of sale |Input |Nominal
+|yr built |Year built |Input |Nominal
+|yr_renovated |Year renovated |Input |Nominal
+|zipcode |Zip code |Input |Nominal
+|===
